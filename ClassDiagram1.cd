@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StarForce.GameEntry" Collapsed="true">
+    <Position X="30.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAEQACAIiAAAAAggAAEAACAAoAAgAAARAFAAARAUgA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Base\GameEntry.Builtin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.BuiltinDataComponent" Collapsed="true">
+    <Position X="36" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAEAAAAAAAAAABACAAACBAAEAAAQAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\BuiltinData\BuiltinDataComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.BinaryReaderExtension" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAgBAAAAAAAAAAABAAAAQAAAAAAAARAAQA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\BinaryReaderExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DataTableExtension" Collapsed="true">
+    <Position X="30.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAAABQAAAAAAAAgBIAAAEAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DataTableExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRAircraft" Collapsed="true">
+    <Position X="34.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAEAIAABAAAQAAACAECBAQQBCEEBAAAAoA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRAircraft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRArmor" Collapsed="true">
+    <Position X="36" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAEAAAAAAAAAQAAAAAAgAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRArmor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRAsteroid" Collapsed="true">
+    <Position X="37.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAAAAIAAAAAAEAABAIAABAQQAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRAsteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DREntity" Collapsed="true">
+    <Position X="39.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAgAAAAAAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DREntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRMusic" Collapsed="true">
+    <Position X="29" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAgAAAAAAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRMusic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRScene" Collapsed="true">
+    <Position X="30.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAgAAAAAAAAAAAQAAAgAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRSound" Collapsed="true">
+    <Position X="32.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAAAIAEAAgAAAAAAAAAAAQAAAIAAAAAAIk=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRSound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRThruster" Collapsed="true">
+    <Position X="34.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAAAAAAAAABAAAAAAQAAAAAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRThruster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRUIForm" Collapsed="true">
+    <Position X="36" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgBAAAAAAIAAAAgAAAAAAAAAAAQAAAAAAEAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRUIForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRUISound" Collapsed="true">
+    <Position X="37.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAIAEAAgAAAAAAAAAAAQAAAIAAAAAAIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRUISound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DRWeapon" Collapsed="true">
+    <Position X="39.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAIAAAAAAAAAAgIEAAAQAAAAAAAAABIA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\DataTable\DRWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ChangeLanguageDebuggerWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="37.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAQAAEABAARAAAABAAAAAAIAAAAEAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Debugger\ChangeLanguageDebuggerWindow.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StarForce.Constant" Collapsed="true">
+    <Position X="29" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\Constant\Constant.AssetPriority.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.BuildInfo" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAUCEAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAABA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\DataStruct\BuildInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.VersionInfo" Collapsed="true">
+    <Position X="39.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAEAAAAAAAgAAAAAAAAAAABAIgAAAAEAAAAg=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\DataStruct\VersionInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AccessoryObjectData" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAgAIAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\AccessoryObjectData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AircraftData" Collapsed="true">
+    <Position X="1" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAABCQAAAAQAEAAAEEAAJAAAIBQBQEABAAgAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\AircraftData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ArmorData" Collapsed="true">
+    <Position X="10" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAEAAAAAAIAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\ArmorData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AsteroidData" Collapsed="true">
+    <Position X="3.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAEAAAAEAABAIAIBgAQEAEAAAAAABA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\AsteroidData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.BulletData" Collapsed="true">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAABAoAIAgAAAAEAQAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\BulletData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.EffectData" Collapsed="true">
+    <Position X="14.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\EffectData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.EntityData" Collapsed="true">
+    <Position X="7.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAIAgAAAAAAQAAAAAAAQgAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\EntityData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.MyAircraftData" Collapsed="true">
+    <Position X="1" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\MyAircraftData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.TargetableObjectData" Collapsed="true">
+    <Position X="2.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAEAAAAAAAAAEAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\TargetableObjectData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ThrusterData" Collapsed="true">
+    <Position X="5.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\ThrusterData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.WeaponData" Collapsed="true">
+    <Position X="7.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABEAAAAIAAAAAAAACgIEAAAAAAAEAAAAABAQ=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityData\WeaponData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.EntityExtension" Collapsed="true">
+    <Position X="29" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEMAAQAABAAAAAAQCAAAAAEgAAAAAAAQAABAAgA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Aircraft" Collapsed="true">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAIEAAAAAIQAAAAhAAABAAAAAAAAAAAAAAkAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Aircraft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Armor" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAgAAAAAAAAAAAAAAAAAAAQAAAAAAQAEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Asteroid" Collapsed="true">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIhAAAAAAAAAQAAAACAAEEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Asteroid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Bullet" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAABAAAAAAAAAQAAAAAAAEEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Bullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Effect" Collapsed="true">
+    <Position X="14.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAgAAAAAEEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Effect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Entity" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAADAAAAEAgAAAAAAABAAAEABAAAAAQAAAAAAAEEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.MyAircraft" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAACAAAAAAAQAAAAAAAEEgAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\MyAircraft.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.TargetableObject" Collapsed="true">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAlAAAAEAAAAYAQAAAAAAEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\TargetableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Thruster" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAEAAAAAAAAAAQAAAAAAQAEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Thruster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.Weapon" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAEAAACAAAAAAQQAAAAAAQAEAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Entity\EntityLogic\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.GameBase" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAAAAAQAAACAAAQACAAAAAAAAAgAAAAAgAAE=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Game\GameBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.SurvivalGame" Collapsed="true">
+    <Position X="0.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAggAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Game\SurvivalGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.HPBarComponent" Collapsed="true">
+    <Position X="34.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQBAAAAACAAAIAAACAAQAAAAAAAAAJIAFAAAAAAACA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\HPBar\HPBarComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.HPBarItem" Collapsed="true">
+    <Position X="36" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABBABAAAAECAAAAAAAAAAABAAAACRgCAMEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\HPBar\HPBarItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.HPBarItemObject" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\HPBar\HPBarItemObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.XmlLocalizationHelper" Collapsed="true">
+    <Position X="30.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Localization\XmlLocalizationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.CSPacketBase" Collapsed="true">
+    <Position X="4.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\CSPacketBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.CSPacketHeader" Collapsed="true">
+    <Position X="9.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\CSPacketHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.NetworkChannelHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACYAABAwEAEAAAASAAACAAAgAACAAAAAAAASA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\NetworkChannelHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StarForce.CSHeartBeat" Collapsed="true">
+    <Position X="4.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\Packet\CSHeartBeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.SCHeartBeat" Collapsed="true">
+    <Position X="6.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\Packet\SCHeartBeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.PacketBase" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\PacketBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StarForce.SCHeartBeatHandler" Collapsed="true">
+    <Position X="14.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\PacketHandler\SCHeartBeatHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.PacketHandlerBase" Collapsed="true">
+    <Position X="14.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\PacketHandlerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StarForce.PacketHeaderBase" Collapsed="true">
+    <Position X="10.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAoAgAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\PacketHeaderBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StarForce.SCPacketBase" Collapsed="true">
+    <Position X="6.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\SCPacketBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.SCPacketHeader" Collapsed="true">
+    <Position X="11.75" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\SCPacketHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureBase" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureChangeScene" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAACCAAQABAAAAAAAAAUAIAEACEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureChangeScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureCheckResources" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAKACAAAAAAAAAAAAAAAAIAAAAAAAIAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureCheckResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureCheckVersion" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAggAIAAAAABAAAAAQABAIAIAIAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureCheckVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureInitResources" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAIAAAAMAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureInitResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureLaunch" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureLaunch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureMain" Collapsed="true">
+    <Position X="26.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAABAAAAAEAIBAAAAAAAAQAAIAgIAEACEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureMenu" Collapsed="true">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAABAgAAAAAAAAEIAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedurePreload" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAACAAAQAAAAAAtAAAAAABCgAAAAAAAAAIAAABEAAUg=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedurePreload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureSplash" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureSplash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureUpdateResources" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAIAAAAAkAQAIEFAAgCAAAAAABJAAAAEQAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureUpdateResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureUpdateVersion" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAgAAAAEAAAgAAQAAIAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureUpdateVersion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ProcedureVerifyResources" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAQAAAAABCAAAAAAAQAgIAAAAEAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Procedure\ProcedureVerifyResources.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.HideByBoundary" Collapsed="true">
+    <Position X="32.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Scene\HideByBoundary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.ScrollableBackground" Collapsed="true">
+    <Position X="30.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAKAAAAAIAEAAAQCAAAEAAAAAACAEAAAgAQA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Scene\ScrollableBackground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.SoundExtension" Collapsed="true">
+    <Position X="32.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAQAAAACAAAAg0AAAAACACAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Sound\SoundExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AboutForm" Collapsed="true">
+    <Position X="13.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIAAAAAAQAAAAAAAAAAAEAAAQAAAIAAAEAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\AboutForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.CommonButton" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AECQIAAAAAAIAAAAAAAAAAAAAAAgABIIAAAgAQAAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\CommonButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StarForce.DialogForm" Collapsed="true">
+    <Position X="6.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAEACEkAACACgAAAAAAAAQAwAUAAAABAAAIAIIAKIQA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\DialogForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.DialogParams" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAIAAAEAAAAACAAAgABCIAAAAAAAAIAAIAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\DialogParams.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.MenuForm" Collapsed="true">
+    <Position X="9" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAkAAgAEAAAAAAAAABAAAAAAAQAAIAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\MenuForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.SettingForm" Collapsed="true">
+    <Position X="11.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAATIIMgAAAIiAAAEEgAAAEIABAACBIACAAACQkAAAE=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\SettingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.UGuiForm" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgIAEAAAAQAAgAAIAAIAEAAAAABBQxQBIBABGAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\UGuiForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.UGuiGroupHelper" Collapsed="true">
+    <Position X="34.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAACAAAAAAAAAAAAAAAAAAAgABABAAAAAAAEA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\UGuiGroupHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.UIExtension" Collapsed="true">
+    <Position X="36" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAEACAAAAAAAAAAgAAAAAIAAAAQAAAAABAAAAgA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\UIExtension.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.UpdateResourceForm" Collapsed="true">
+    <Position X="37.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAACAAAAAAAAAAAAAAQAAAAAACA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\UpdateResourceForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AIUtility" Collapsed="true">
+    <Position X="29" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAABAAAAAAIAAABAAAABAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Utility\AIUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.AssetUtility" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAAAAABAAAABQAABAACBAAAAAIAAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Utility\AssetUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StarForce.LitJsonHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="39.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Utility\LitJsonHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StarForce.WebUtility" Collapsed="true">
+    <Position X="29" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Utility\WebUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="StarForce.ImpactData" Collapsed="true">
+    <Position X="29" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAABEAAAAAAAAAAAAAAAAQIAAAAAAQAEAAgAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\DataStruct\ImpactData.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="StarForce.CampType" Collapsed="true">
+    <Position X="29" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAACAAAAAAAQAAAAAAAAAAAIAAAAAAAAQAAABA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\Enum\CampType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarForce.RelationType" Collapsed="true">
+    <Position X="34.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAAQBA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Definition\Enum\RelationType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarForce.GameMode" Collapsed="true">
+    <Position X="30.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Game\GameMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarForce.PacketType" Collapsed="true">
+    <Position X="32.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\Network\PacketType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StarForce.UIFormId" Collapsed="true">
+    <Position X="36" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAAAAQAACA=</HashCode>
+      <FileName>Assets\GameMain\Scripts\UI\UIFormId.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

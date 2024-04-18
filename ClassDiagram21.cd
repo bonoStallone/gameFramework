@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityGameFramework.Editor.BaseComponentInspector" Collapsed="true">
+    <Position X="2.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABBBAKAGEAAAAAAAAHQACAACAAQKzABAABAQACgA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\BaseComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ConfigComponentInspector" Collapsed="true">
+    <Position X="9.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAIAAIAAAACAAAAAAAAACAAAAAAAAAAAABCAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\ConfigComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.DataNodeComponentInspector" Collapsed="true">
+    <Position X="16" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\DataNodeComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.DataTableComponentInspector" Collapsed="true">
+    <Position X="22.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>CQIAAAAAAACAAAAAAABACAAAAAAAAAAAABAAAgAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\DataTableComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.DebuggerComponentInspector" Collapsed="true">
+    <Position X="27.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAABAAACAAAAAAAiAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\DebuggerComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.DownloadComponentInspector" Collapsed="true">
+    <Position X="34" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACACAAQAgBAAACAAAAAAAAAQAABAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\DownloadComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.EditorResourceComponentInspector" Collapsed="true">
+    <Position X="40.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAEAAAACAAAAAAAAAAAAAAACAAACAI=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\EditorResourceComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.EntityComponentInspector" Collapsed="true">
+    <Position X="47.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAADAIAAAAAAACABAAACAAAQAABAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\EntityComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.EventComponentInspector" Collapsed="true">
+    <Position X="4.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\EventComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.FileSystemComponentInspector" Collapsed="true">
+    <Position X="11.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAACAAAAAAAABAAABAAAAABCAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\FileSystemComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.FsmComponentInspector" Collapsed="true">
+    <Position X="18.25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABCAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\FsmComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.GameFrameworkInspector" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAgAACAAAAAAAAAAAAAAAIgAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\GameFrameworkInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.LocalizationComponentInspector" Collapsed="true">
+    <Position X="29.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAAAAAAAgACAAAAAAgAAAAABAAAAQACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\LocalizationComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.NetworkComponentInspector" Collapsed="true">
+    <Position X="36.25" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAIAAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\NetworkComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ObjectPoolComponentInspector" Collapsed="true">
+    <Position X="43" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\ObjectPoolComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ProcedureComponentInspector" Collapsed="true">
+    <Position X="49.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAADAAAIAAABAAAABAAAAIgDAE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\ProcedureComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ReferencePoolComponentInspector" Collapsed="true">
+    <Position X="7" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAgACAAAAAAAAAAAAAgAACAACQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\ReferencePoolComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceComponentInspector" Collapsed="true">
+    <Position X="13.75" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAwACACIgEIIJAEACAAAACAgAgQAABAABgwCCUA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\ResourceComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.SceneComponentInspector" Collapsed="true">
+    <Position X="20.5" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAgAAAAAACAAAAAAAAAAAAAAAAAAACgA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\SceneComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.SettingComponentInspector" Collapsed="true">
+    <Position X="25" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAACAAAAAAAAAAAARAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\SettingComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.SoundComponentInspector" Collapsed="true">
+    <Position X="31.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAACACAAABAAAAACAABAAAAAAUAAJAAAAAACCA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\SoundComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.UIComponentInspector" Collapsed="true">
+    <Position X="38.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABgAACAAAAIAAAAKAAAEEAAAAQQCBQBAACACAg=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\UIComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.WebRequestComponentInspector" Collapsed="true">
+    <Position X="45.25" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAQAACAAAiAAAAAAAAAQAABAAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Inspector\WebRequestComponentInspector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.BuildSettings" Collapsed="true">
+    <Position X="54" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAQAAAAAAABAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\BuildSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.BuildSettingsConfigPathAttribute" Collapsed="true">
+    <Position X="0.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\BuildSettingsConfigPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ConfigPathAttribute" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\ConfigPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.Help" Collapsed="true">
+    <Position X="57.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\Help.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.HelperInfo&lt;T&gt;" Collapsed="true">
+    <Position X="59.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAABAAxAgAAAAAAAAAAAAAAAAAAACGAAAAQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\HelperInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.LogScriptingDefineSymbols" Collapsed="true">
+    <Position X="52.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABABAAgCAAAAHIAAQAAABBBIAABBEIEgAAAAVAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\LogScriptingDefineSymbols.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.OpenFolder" Collapsed="true">
+    <Position X="54" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAACAAAAAYAAAAAAAAAAAAAAAAEAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\OpenFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ScriptingDefineSymbols" Collapsed="true">
+    <Position X="59.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAQQA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\ScriptingDefineSymbols.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.Type" Collapsed="true">
+    <Position X="55.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAQAAAAAAAAAAAgAAAAAIAABAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\Misc\Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.DependencyData" Collapsed="true">
+    <Position X="55.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAIAAAAAAoAAAAAAAAAAAAAABACABAAABJQIAAAIIA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceAnalyzer\DependencyData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceAnalyzer" Collapsed="true">
+    <Position X="57.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAUCIBAEIBIAoOABAAAiAAiAAAGBlAAUPIEDBADIA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceAnalyzer\ResourceAnalyzer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceAnalyzerController" Collapsed="true">
+    <Position X="59.25" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAJAmIAQAAAEhAAAEAAAAAAAKAAEAMAJABAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceAnalyzer\ResourceAnalyzerController.CircularDependencyChecker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceBuilder" Collapsed="true">
+    <Position X="52.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABgEYQIAIAAAAAAAAgBKBAAQAAAAOAgBABCAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\ResourceBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceBuilderConfigPathAttribute" Collapsed="true">
+    <Position X="5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\ResourceBuilderConfigPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceBuilderController" Collapsed="true">
+    <Position X="54" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AiAwxoSBC3YQJGyiABiAMApAEAsoBDZBCg+EBJGIgA0=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\ResourceBuilderController.AssetData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.Asset" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="52.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAQAAAAAAAQAAAAABEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\Asset.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.Resource" Collapsed="true">
+    <Position X="55.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAhEAAiAAACCQIAAEQAAAAQCAACAAMIAAAAAAABAgCA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\Resource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceCollection" Collapsed="true">
+    <Position X="55.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIABCEMAAAgCEAAACAACABBAAIKAAQIgCgRCCAQ=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\ResourceCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceCollectionConfigPathAttribute" Collapsed="true">
+    <Position X="2.75" Y="5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\ResourceCollectionConfigPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceEditor" Collapsed="true">
+    <Position X="57.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIDBgIIAcMYKagZAGgFoGAoTAABOhAAYiQLgACQCiDQ=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\ResourceEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceEditorConfigPathAttribute" Collapsed="true">
+    <Position X="7.25" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\ResourceEditorConfigPathAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceEditorController" Collapsed="true">
+    <Position X="59.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>FIIAgYIJiGMAAHBCFAAAEYADAQBAAKAAYQogCgQCEBA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\ResourceEditorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.SourceAsset" Collapsed="true">
+    <Position X="52.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAIAAAAAAAQAAAIABAAgAAAAAAEABAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\SourceAsset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.SourceFolder" Collapsed="true">
+    <Position X="54" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAgAAAQAAAIABIIoAAAEAAFABCA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\SourceFolder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourcePackBuilder" Collapsed="true">
+    <Position X="52.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAQIAAABAgACIAKAAQAAAAAAAgAQgRQCBACBIQgACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourcePackBuilder\ResourcePackBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourcePackBuilderController" Collapsed="true">
+    <Position X="54" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEowAgAAAQABAgCAACIEAAAQgAAABZjCgAAJQQIIAU=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourcePackBuilder\ResourcePackBuilderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceSyncTools" Collapsed="true">
+    <Position X="55.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAYAIAIAIAAAAAAAAAAAAAAAAAAAKAAAAACAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceSyncTools\ResourceSyncTools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityGameFramework.Editor.ResourceTools.ResourceSyncToolsController" Collapsed="true">
+    <Position X="57.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ABQACAAgAAIIAAICCAAAIAAAAAAAAIAAAAIAAAAAAAE=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceSyncTools\ResourceSyncToolsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UnityGameFramework.Editor.ResourceTools.IBuildEventHandler" Collapsed="true">
+    <Position X="52.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAIAAAABAAAAAAQAAAAAAAAAAAAAAAABAgAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\IBuildEventHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.AssetsOrder" Collapsed="true">
+    <Position X="54" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQAAQAAAAAAAAAgAIAAAAAAAgAAAAAAIIAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceAnalyzer\AssetsOrder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.ScatteredAssetsOrder" Collapsed="true">
+    <Position X="54" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAABAAgAAAAAAIAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceAnalyzer\ScatteredAssetsOrder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.AssetBundleCompressionType" Collapsed="true">
+    <Position X="52.25" Y="6.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAEAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\AssetBundleCompressionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.Platform" Collapsed="true">
+    <Position X="52.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABEBAAAAAAAAABAAAAAAAEAIAABAAAAAAACA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceBuilder\Platform.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.AssetType" Collapsed="true">
+    <Position X="57.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAgAAAAABA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\AssetType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.LoadType" Collapsed="true">
+    <Position X="59.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAJAAAAAAAAAAQIAAAAAAAAAAAABEAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceCollection\LoadType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityGameFramework.Editor.ResourceTools.AssetSorterType" Collapsed="true">
+    <Position X="55.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAQAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameFramework\Scripts\Editor\ResourceEditor\AssetSorterType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
